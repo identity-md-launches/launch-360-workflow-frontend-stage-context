@@ -1,0 +1,84 @@
+{
+  "checkedAt": "2026-09-27T06:49:24.648Z",
+  "exportUrl": "/preview/",
+  "mockedWalletAndRPC": true,
+  "realTransactions": 0,
+  "tests": [
+    {
+      "name": "Static gateway subpath, runtime ABIs and disconnected actions",
+      "passed": true
+    },
+    {
+      "name": "Missing wallet and rejected connection recover visibly",
+      "passed": true
+    },
+    {
+      "name": "Wrong chain blocks writes; unknown chain adds exact handed-off network",
+      "passed": true
+    },
+    {
+      "name": "Amount precision, insufficient balance and approval prerequisites",
+      "passed": true
+    },
+    {
+      "name": "Exact ODMK approval confirms before yes bet and updates live position",
+      "passed": true
+    },
+    {
+      "name": "No-side bet uses false and a separate fresh approval",
+      "passed": true
+    },
+    {
+      "name": "Simulation revert prevents wallet broadcast",
+      "passed": true
+    },
+    {
+      "name": "Wallet transaction rejection and reverted receipt remain actionable",
+      "passed": true
+    },
+    {
+      "name": "Create validation focuses invalid field; bytes32 question round-trips",
+      "passed": true
+    },
+    {
+      "name": "Account change resets wallet state; resolver cannot bet",
+      "passed": true
+    },
+    {
+      "name": "Close boundary disables betting; resolver explicitly confirms settlement",
+      "passed": true
+    },
+    {
+      "name": "Timeout boundary offers void and invalid refunds can be claimed only once",
+      "passed": true
+    },
+    {
+      "name": "RPC failure blocks writes, preserves stale warning, and recovers",
+      "passed": true
+    },
+    {
+      "name": "Missing bytecode, wrong chain and immutable token mismatch fail closed",
+      "passed": true
+    },
+    {
+      "name": "Pagination and filters read only bounded contract views",
+      "passed": true
+    },
+    {
+      "name": "Desktop, intermediate and mobile reflow plus 200% text sizing",
+      "passed": true
+    },
+    {
+      "name": "Keyboard create flow, focus styling and automated accessibility",
+      "passed": true
+    },
+    {
+      "name": "Populated screenshots and no console exceptions",
+      "passed": true
+    },
+    {
+      "name": "Tampered ABI prevents deployment loading",
+      "passed": true
+    }
+  ]
+}

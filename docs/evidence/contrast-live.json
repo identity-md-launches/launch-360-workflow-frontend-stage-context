@@ -1,0 +1,44 @@
+[
+  {
+    "selector": "body",
+    "foreground": "rgb(32, 41, 31)",
+    "background": "rgb(244, 245, 238)",
+    "contrast": 13.68887047263136
+  },
+  {
+    "selector": ".muted",
+    "foreground": "rgb(84, 95, 81)",
+    "background": "rgb(244, 245, 238)",
+    "contrast": 6.110516675068761
+  },
+  {
+    "selector": ".primary",
+    "foreground": "rgb(32, 41, 31)",
+    "background": "rgb(209, 237, 121)",
+    "contrast": 11.51394805796731
+  },
+  {
+    "selector": ".dark-button",
+    "foreground": "rgb(255, 255, 255)",
+    "background": "rgb(32, 41, 31)",
+    "contrast": 15.017417211471559
+  },
+  {
+    "selector": ".testnet-note",
+    "foreground": "rgb(32, 41, 31)",
+    "background": "rgb(233, 235, 226)",
+    "contrast": 12.47608214577308
+  },
+  {
+    "selector": ".eyebrow",
+    "foreground": "rgb(84, 95, 81)",
+    "background": "rgb(244, 245, 238)",
+    "contrast": 6.110516675068761
+  },
+  {
+    "selector": "button",
+    "foreground": "rgb(32, 41, 31)",
+    "background": "rgb(209, 237, 121)",
+    "contrast": 11.51394805796731
+  }
+]

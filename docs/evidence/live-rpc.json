@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-09-27T06:40:08.924Z",
+  "method": "Read-only public RPC; no transactions broadcast",
+  "endpoints": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "chainId": 11155111,
+      "block": "11791596",
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0x79c1fc6ad772e720c0d85688e49c94013c6ef087",
+          "codeBytes": 1723
+        },
+        {
+          "name": "ParimutuelMarket",
+          "address": "0x42a34c02ca545f53779ab897ad0473bda94fc3b0",
+          "codeBytes": 4517
+        }
+      ],
+      "token": "0x79c1fc6aD772E720c0d85688e49c94013C6eF087",
+      "marketCount": "0",
+      "passed": true
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "chainId": 11155111,
+      "block": "11791596",
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0x79c1fc6ad772e720c0d85688e49c94013c6ef087",
+          "codeBytes": 1723
+        },
+        {
+          "name": "ParimutuelMarket",
+          "address": "0x42a34c02ca545f53779ab897ad0473bda94fc3b0",
+          "codeBytes": 4517
+        }
+      ],
+      "token": "0x79c1fc6aD772E720c0d85688e49c94013C6eF087",
+      "marketCount": "0",
+      "passed": true
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "chainId": 11155111,
+      "block": "11791596",
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0x79c1fc6ad772e720c0d85688e49c94013c6ef087",
+          "codeBytes": 1723
+        },
+        {
+          "name": "ParimutuelMarket",
+          "address": "0x42a34c02ca545f53779ab897ad0473bda94fc3b0",
+          "codeBytes": 4517
+        }
+      ],
+      "token": "0x79c1fc6aD772E720c0d85688e49c94013C6eF087",
+      "marketCount": "0",
+      "passed": true
+    }
+  ]
+}

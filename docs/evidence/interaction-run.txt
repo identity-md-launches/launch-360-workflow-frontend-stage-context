@@ -1,0 +1,28 @@
+
+> oddsmaker-frontend@1.0.0 test
+> node tests/interaction.mjs
+
+PASS Static gateway subpath, runtime ABIs and disconnected actions
+PASS Missing wallet and rejected connection recover visibly
+PASS Wrong chain blocks writes; unknown chain adds exact handed-off network
+PASS Amount precision, insufficient balance and approval prerequisites
+PASS Exact ODMK approval confirms before yes bet and updates live position
+PASS No-side bet uses false and a separate fresh approval
+PASS Simulation revert prevents wallet broadcast
+PASS Wallet transaction rejection and reverted receipt remain actionable
+PASS Create validation focuses invalid field; bytes32 question round-trips
+PASS Account change resets wallet state; resolver cannot bet
+PASS Close boundary disables betting; resolver explicitly confirms settlement
+PASS Timeout boundary offers void and invalid refunds can be claimed only once
+PASS RPC failure blocks writes, preserves stale warning, and recovers
+PASS Missing bytecode, wrong chain and immutable token mismatch fail closed
+PASS Pagination and filters read only bounded contract views
+PASS Desktop, intermediate and mobile reflow plus 200% text sizing
+PASS Keyboard create flow, focus styling and automated accessibility
+PASS Populated screenshots and no console exceptions
+PASS Tampered ABI prevents deployment loading
+npm notice
+npm notice New major version of npm available! 11.19.0 -> 12.1.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.1.0
+npm notice To update run: npm install -g npm@12.1.0
+npm notice

@@ -1,0 +1,51 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-278-parimutuelmarket",
+  "version": 1,
+  "launchId": "6e8f164e-05f8-4d77-868b-391b331248a6",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Sepolia test markets with no real value. LaunchToken has no constructor arguments. ParimutuelMarket uses the immutable ODMK token address, needs no token balance at deployment, and has no owner, admin, upgrade path or initialization calls. Bets require token approval; payouts and refunds are pull-based. Each market's named human resolver decides its outcome and could bet through another address. Rounding leaves at most one base unit per winner in the contract. The pool pairs with native Sepolia ETH and has no hook. initialPrice is decimal sqrtPriceX96; services derive the effective opening price when the pinned policy specifies it. Source publication, signed artifact linkage, admission and deployment remain service responsibilities.",
+    "token": {
+      "name": "Oddsmaker",
+      "symbol": "ODMK",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "ParimutuelMarket",
+        "constructorArgs": [
+          "$token"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0xca09fffbf2cc4e6b6ae509ecc03d714a8e3cbb73c95d8508bdaf2cc366312e8b",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0x79c1fc6ad772e720c0d85688e49c94013c6ef087",
+      "blockNumber": 11791401,
+      "creationCodeHash": "14dc46cc2a30ee2c8d7481654b1296146019387504cec9452cd0de15c5a1dbe7"
+    },
+    {
+      "name": "ParimutuelMarket",
+      "txHash": "0xca09fffbf2cc4e6b6ae509ecc03d714a8e3cbb73c95d8508bdaf2cc366312e8b",
+      "abiHash": "287fa6ea8cad8a581077d090260a036348d371216203c4b1e4b97d7eafc4cf5b",
+      "address": "0x42a34c02ca545f53779ab897ad0473bda94fc3b0",
+      "blockNumber": 11791401,
+      "creationCodeHash": "aa0a981262e5b0f0ef6b2ca0a62b56edbe23dda1c1be7b7b0c4d47c140105142"
+    }
+  ],
+  "sourceCommit": "f65175c1d478383f33eb6dbbc24643c09f78f9ac",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "b746e367657ac6fdbcec0b8c3ddefb4ce5d6d00a00b5f34a8241590d814258f6"
+}
